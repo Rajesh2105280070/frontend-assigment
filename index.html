@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Startup 3</title>
+    <link rel="stylesheet" href="node_modules/bootstrap-icons/font/bootstrap-icons.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Belanosima:wght@400;600&family=DM+Sans:ital,opsz,wght@0,9..40,600;1,9..40,500&family=Poppins:wght@400;600&family=Roboto:wght@300;400&display=swap"
+        rel="stylesheet">
+    <style>
+        body {
+            color: white;
+            font-family: 'DM Sans', sans-serif;
+        }
+
+        header {
+            display: flex;
+            justify-content: space-between;
+            width: 927px;
+            height: 90px;
+            margin-top: 60px;
+            margin-left: 89px;
+            font-family: 'DM Sans', sans-serif;
+        }
+
+        .header span {
+            margin-right: -225px;
+        }
+
+        .overview {
+            color: gray;
+            font-family: 'DM Sans', sans-serif;
+        }
+
+        .brand-title {
+            font-size: 30px;
+            font-weight: bold;
+        }
+
+        nav {
+            margin-right: -170px;
+        }
+
+        nav span {
+            margin-right: 20px;
+        }
+
+        .purchase {
+            background-color: #E93A7D;
+            border-radius: 20px;
+            font-size: 14px;
+            line-height: 26px;
+            letter-spacing: 0px;
+            text-align: center;
+            color: white;
+            border: none;
+            font-family: 'DM Sans', sans-serif;
+
+        }
+
+        button span {
+            text-align: center;
+            font-family: 'DM Sans', sans-serif;
+        }
+
+        section {
+            display: grid;
+            grid-template-columns: 5fr 7fr;
+            margin-left: 80px;
+            padding: 20px;
+            justify-content: space-between;
+        }
+
+        h2 {
+            font-size: 50px;
+            font-weight: bold;
+            top: 20px;
+            font-family: 'DM Sans', sans-serif;
+        }
+
+        .card {
+            background-color: #2F1893;
+            height: 500px;
+            margin: 5px;
+            padding: 10px;
+            border-radius: 20px;
+        }
+
+        .card-title {
+            font-size: 20px;
+        }
+
+        .first-card {
+            background-color: #2F1893;
+        }
+
+        .btn-header {
+            border-radius: 20px;
+            margin-top: 20px;
+            font-family: 'DM Sans', sans-serif;
+            height: 30px;
+            text-align: center;
+            background-color: #E93A7D;
+            color: white;
+            border: none;
+            font-family: 'DM Sans', sans-serif;
+        }
+
+        .second-card {
+            margin-left: 200px;
+            text-align: center;
+        }
+
+        .card .second-card {
+            background-color: white;
+        }
+
+        .signin {
+            height: 10px;
+            padding: 10px;
+        }
+
+        .second-heading {
+            font-family: 'DM Sans', sans-serif;
+            font-size: 40px;
+            margin-top: -420px;
+            color: #1E0E62;
+        }
+
+        .card .second-body {
+            padding: 10px;
+            border-radius: 20px;
+        }
+
+        .card .thid-body {
+            margin-top: 20px;
+        }
+
+        .form-control {
+            font-family: 'DM Sans', sans-serif;
+            border-radius: 20px;
+            width: 300px;
+            height: 35px;
+            text-align: center;
+            border: 1px solid black;
+        }
+
+        .terms {
+            font-family: 'DM Sans', sans-serif;
+            height: 10px;
+            padding: 10px;
+            margin-top: 20px;
+            color: gray;
+        }
+
+        .bi-check-square-fill {
+            color: #25DAC5;
+        }
+
+        .btn {
+            font-family: 'DM Sans', sans-serif;
+            text-align: center;
+            border-radius: 20px;
+            height: 35px;
+            width: 300px;
+            margin-top: 20px;
+            background-color: #2F1893;
+            color: white;
+            border: none;
+        }
+
+        .line {
+            display: flex;
+            margin-top: 30px;
+            margin-left: -100px;
+            justify-content: center;
+        }
+
+        .line-img {
+            margin-top: -25px;
+            margin-right: 60px;
+        }
+
+        .line-body {
+            font-family: 'DM Sans', sans-serif;
+            text-align: center;
+            color: #15143966;
+            margin-top: -25px;
+            margin-right: 1px;
+        }
+
+        .line-footer {
+            margin-top: -22px;
+            margin-left: 160px;
+        }
+
+        .btn-twitter {
+            font-family: 'DM Sans', sans-serif;
+            text-align: center;
+            border-radius: 20px;
+            border: none;
+            height: 35px;
+            width: 300px;
+            margin-top: 20px;
+            background-color: #1DA1F2;
+            color: white;
+        }
+
+        .footer {
+            font-family: 'DM Sans', sans-serif;
+            color: #15143966;
+            margin-top: 15px;
+            font-size: 15px;
+        }
+
+        .footer-signin {
+            color: #25DAC5;
+            font-family: 'DM Sans', sans-serif;
+        }
+    </style>
+</head>
+
+<body class="container-fluid" bgcolor="#2F189">
+    <header>
+        <div>
+            <span class="brand-title"> Startup 3 </span>
+        </div>
+        <div>
+            <nav>
+                <span class="overview">Overview</span>
+                <span>Prices</span>
+                <span>Blog</span>
+                <span>Feedback</span>
+                <button class="purchase">Purchase</button>
+            </nav>
+        </div>
+    </header>
+    <section>
+        <div class="card">
+            <div class="first-card">
+                <div class="card-heading">
+                    <h2> Generated <br> Awsome Web <br> Pages</h2>
+                </div>
+                <div class="card-body">
+                    <span class="card-title">
+            The most important part of the <br>
+            Startup is the samples. The samples from a set of 25 usable <br>
+                        pages you can use as is or you can <br>
+                        add a new blocks
+                    </span>
+                    <div>
+                        <button class="btn-header">Learn More</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="second-card">
+            <div class="card">
+                <form class="signin">
+                    <div>
+                        <img src="public/images/Placeholder.png" width="100%" height="100%">
+                    </div>
+                    <h2 class="second-heading">Sign Up Now</h2>
+                    <div class="second-body">
+                        <input class="form-control" type="email" placeholder="Your email">
+                    </div>
+                    <div class="third-body">
+                        <input class="form-control" type="password" placeholder="Your password">
+                    </div>
+                    <div class="terms">
+                        <span class="bi bi-check-square-fill"></span>
+                        <span class="terms">I agree to the Terms of Service</span>
+                    </div>
+                    <button class="btn">Sign In</button>
+                    <div>
+                        <span class="line">
+                            <span class="line-img"><img src="public/images/Divider.png" width="95" height="3"></span>
+                        </span>
+                        <div class="line-body">
+                            <span> or </span>
+                        </div>
+                        <div class="line-footer">
+                            <img src="public/images/Divider.png" width="95" height="3">
+                        </div>
+                        <button class="btn-twitter">Login via Twitter</button>
+                    </div>
+                    <div class="footer">
+                        Do you have an account?
+                        <span class="footer-signin">Sign In</span>
+                    </div>
+                </form>
+                <div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+</body>
+
+</html>
